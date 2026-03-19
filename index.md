@@ -1,7 +1,7 @@
 # Privacy Policy for MemoryAI
 
 **Effective Date: 2026-03-10**
-**Last Updated: 2026-03-17**
+**Last Updated: 2026-03-19**
 
 Thank you for using MemoryAI! This Privacy Policy explains how we handle your information when you use our mobile application. Your privacy is our top priority, and we are committed to protecting it. This policy is compliant with the General Data Protection Regulation (GDPR) and applicable Italian data protection laws.
 
@@ -21,6 +21,8 @@ The data controller for the MemoryAI app is:
 
 **MemoryAI Development Team**
 Email: alessandro.facchini@facchinits.it
+
+Bug Reports & Feature Requests: [github.com/alessandrofacchini/memoryai-feedback](https://github.com/alessandrofacchini/memoryai-feedback/issues)
 
 If you are located in the European Union, you may also contact your local data protection supervisory authority. For users in Italy, this is the **Garante per la protezione dei dati personali** ([www.garanteprivacy.it](https://www.garanteprivacy.it)).
 
