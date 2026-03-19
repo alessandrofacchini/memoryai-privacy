@@ -1,7 +1,7 @@
 # Informativa sulla Privacy di MemoryAI
 
 **Data di entrata in vigore: 10/03/2026**
-**Ultimo aggiornamento: 17/03/2026**
+**Ultimo aggiornamento: 19/03/2026**
 
 Grazie per aver scelto MemoryAI! La presente Informativa sulla Privacy spiega come gestiamo le tue informazioni quando utilizzi la nostra applicazione mobile. La tua privacy è la nostra massima priorità e ci impegniamo a proteggerla. Questa informativa è conforme al Regolamento Generale sulla Protezione dei Dati (GDPR) e alla normativa italiana in materia di protezione dei dati personali.
 
@@ -21,6 +21,8 @@ Il titolare del trattamento dei dati per l'app MemoryAI è:
 
 **Team di sviluppo MemoryAI**
 Email: alessandro.facchini@facchinits.it
+
+Segnalazioni e Richieste: [github.com/alessandrofacchini/memoryai-feedback](https://github.com/alessandrofacchini/memoryai-feedback/issues)
 
 Se ti trovi nell'Unione Europea, puoi anche contattare la tua autorità di controllo locale per la protezione dei dati. Per gli utenti in Italia, si tratta del **Garante per la protezione dei dati personali** ([www.garanteprivacy.it](https://www.garanteprivacy.it)).
 
