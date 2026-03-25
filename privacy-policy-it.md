@@ -1,7 +1,7 @@
 # Informativa sulla Privacy di MemoryAI
 
 **Data di entrata in vigore: 10/03/2026**
-**Ultimo aggiornamento: 19/03/2026**
+**Ultimo aggiornamento: 25/03/2026**
 
 Grazie per aver scelto MemoryAI! La presente Informativa sulla Privacy spiega come gestiamo le tue informazioni quando utilizzi la nostra applicazione mobile. La tua privacy è la nostra massima priorità e ci impegniamo a proteggerla. Questa informativa è conforme al Regolamento Generale sulla Protezione dei Dati (GDPR) e alla normativa italiana in materia di protezione dei dati personali.
 
@@ -49,7 +49,7 @@ MemoryAI **non** raccoglie, trasmette o archivia alcun dato personale o contenut
 - **Dati di backup:** Se abiliti la funzione di backup su cloud, l'app crea una copia dei tuoi dati e la carica nel tuo account di archiviazione cloud personale (Google Drive su Android, iCloud su iOS). Vedi Sezione 5 per i dettagli.
 - **Preferenze dell'app:** Impostazioni e preferenze configurate all'interno dell'app (ad es. selezione della lingua, tema).
 
-**Non raccogliamo dati analitici, telemetria o alcuna forma di dati di utilizzo anonimi.** Nessun contenuto creato dall'utente viene inviato a server di proprietà o gestiti da MemoryAI. I dati lasciano il tuo dispositivo solo se scegli esplicitamente di eseguire il backup nel tuo archivio cloud personale o di condividere contenuti tramite la funzione di Condivisione (vedi Sezione 5).
+Raccogliamo **dati di utilizzo anonimi minimi** tramite TelemetryDeck, un servizio di analisi rispettoso della privacy con sede nell'Unione Europea (Germania). Queste analisi ci aiutano a capire come viene utilizzata l'app e a migliorarla. I dati raccolti sono **completamente anonimi** — non contengono informazioni personali, identificativi del dispositivo, indirizzi IP né contenuti generati dall'utente. Esempi di segnali anonimi includono: "l'app è stata aperta", "un modello è stato caricato", "un messaggio è stato inviato" (mai il contenuto del messaggio). Per maggiori dettagli, vedi Sezione 9. Puoi saperne di più sulle pratiche di privacy di TelemetryDeck su [telemetrydeck.com/privacy](https://telemetrydeck.com/privacy/). Nessun contenuto creato dall'utente viene inviato a server di proprietà o gestiti da MemoryAI. I dati lasciano il tuo dispositivo solo se scegli esplicitamente di eseguire il backup nel tuo archivio cloud personale o di condividere contenuti tramite la funzione di Condivisione (vedi Sezione 5).
 
 ---
 
@@ -151,6 +151,7 @@ MemoryAI è costruita utilizzando librerie di terze parti. La maggior parte oper
 - **LLM sul dispositivo:** I modelli IA utilizzati per le conversazioni e la RAG funzionano localmente. Nessuna query o risposta viene trasmessa esternamente.
 - **Condivisione/Esportazione (share_plus):** Quando utilizzi la funzione di Condivisione per esportare le conversazioni, l'app utilizza il foglio di condivisione nativo del tuo dispositivo (tramite la libreria share_plus). I dati vengono trasferiti al sistema operativo e poi all'app da te selezionata. MemoryAI non controlla né monitora i dati una volta che lasciano l'app.
 - **Acquisti in-app:** Utilizziamo le API native per gli acquisti in-app fornite da Apple (App Store) e Google (Google Play) per gestire lo sblocco delle funzionalità premium. Non abbiamo accesso alle tue informazioni di pagamento o fatturazione — questo è gestito interamente da Apple o Google. L'acquisto di funzionalità premium **non** modifica il modo in cui i tuoi dati vengono gestiti; tutti i dati rimangono locali a meno che tu non scelga di utilizzare la funzione di backup.
+- **TelemetryDeck (Analisi anonime):** Utilizziamo TelemetryDeck per raccogliere statistiche di utilizzo anonime e aggregate. TelemetryDeck è un servizio di analisi rispettoso della privacy con sede in Germania (UE). **Non** raccoglie dati personali, identificativi del dispositivo, indirizzi IP né alcun contenuto generato dall'utente. L'identificazione degli utenti utilizza un hash crittografico a rotazione giornaliera che non può essere invertito o collegato a nessun individuo. Tutti i dati vengono elaborati e archiviati nell'Unione Europea. Informativa sulla privacy di TelemetryDeck: [telemetrydeck.com/privacy](https://telemetrydeck.com/privacy/).
 
 Se in futuro integreremo nuovi servizi di terze parti, aggiorneremo di conseguenza la presente informativa.
 
