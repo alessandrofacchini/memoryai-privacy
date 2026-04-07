@@ -1,7 +1,7 @@
 # Privacy Policy for MemoryAI
 
 **Effective Date: 2026-03-10**
-**Last Updated: 2026-03-25**
+**Last Updated: 2026-04-07**
 
 Thank you for using MemoryAI! This Privacy Policy explains how we handle your information when you use our mobile application. Your privacy is our top priority, and we are committed to protecting it. This policy is compliant with the General Data Protection Regulation (GDPR) and applicable Italian data protection laws.
 
@@ -49,7 +49,9 @@ MemoryAI does **not** collect, transmit, or store any of your personal data or u
 - **Backup Data:** If you enable the cloud backup feature, the app creates a copy of your data and uploads it to your personal cloud storage account (Google Drive on Android, iCloud on iOS). See Section 5 for details.
 - **App Preferences:** Settings and preferences you configure within the app (e.g., language selection, theme).
 
-We collect **minimal, anonymous usage analytics** through TelemetryDeck, a privacy-first analytics service based in the European Union (Germany). These analytics help us understand how the app is used and improve it. The data collected is **fully anonymous** — it contains no personal information, no device identifiers, no IP addresses, and no user-generated content. Examples of anonymous signals include: "the app was opened," "a model was loaded," "a message was sent" (never the message itself). For more details, see Section 9. You can learn more about TelemetryDeck's privacy practices at [telemetrydeck.com/privacy](https://telemetrydeck.com/privacy/). No user-created content is sent to any server owned or operated by MemoryAI. Data only leaves your device if you explicitly choose to back up to your personal cloud storage or share content via the Share feature (see Section 5).
+We collect **minimal, anonymous usage analytics** through TelemetryDeck, a privacy-first analytics service based in the European Union (Germany). These analytics help us understand how the app is used and improve it. The data collected is **fully anonymous** — it contains no personal information, no device identifiers, no IP addresses, and no user-generated content. Examples of anonymous signals include: "the app was opened," "a model was loaded," "a message was sent" (never the message itself). For more details, see Section 9. You can learn more about TelemetryDeck's privacy practices at [telemetrydeck.com/privacy](https://telemetrydeck.com/privacy/).
+
+We also use **Sentry** for crash and error diagnostics. Sentry is used only to help us detect, investigate, and fix app failures; it is **not** used for product analytics. We configure Sentry to minimize the data sent, disable default personally identifiable information collection, and filter or redact diagnostic payloads before submission. We do **not** intentionally send your prompts, messages, document contents, backup contents, or authentication tokens to Sentry. No user-created content is sent to any server owned or operated by MemoryAI unless you explicitly choose to back up to your personal cloud storage or share content via the Share feature (see Section 5).
 
 ---
 
@@ -152,6 +154,7 @@ MemoryAI is built using third-party libraries. The majority operate **on-device*
 - **Share/Export (share_plus):** When you use the Share feature to export conversations, the app uses your device's native share sheet (via the share_plus library). The data is handed off to the operating system and then to whichever app you select. MemoryAI does not control or monitor this data once it leaves the app.
 - **In-App Purchases:** We use the native in-app purchase APIs provided by Apple (App Store) and Google (Google Play) to handle premium feature unlocks. We do not have access to your payment or billing information — this is handled entirely by Apple or Google. Purchasing premium features **does not** change how your data is handled; all data remains local unless you choose to use the backup feature.
 - **TelemetryDeck (Anonymous Analytics):** We use TelemetryDeck to collect anonymous, aggregated usage statistics. TelemetryDeck is a privacy-first analytics service based in Germany (EU). It does **not** collect personal data, device identifiers, IP addresses, or any user-generated content. User identification uses a daily-rotating cryptographic hash that cannot be reversed or linked to any individual. All data is processed and stored in the European Union. TelemetryDeck's privacy policy: [telemetrydeck.com/privacy](https://telemetrydeck.com/privacy/).
+- **Sentry (Crash and Error Diagnostics):** We use Sentry to receive crash reports and error diagnostics so we can identify bugs, fix stability issues, and improve reliability. Sentry is **not** used for product analytics. We configure it to minimize data collection, keep `sendDefaultPii` disabled, and filter or redact diagnostic payloads before they are sent. We do **not** intentionally send prompts, conversations, document contents, backup contents, or authentication tokens to Sentry. Depending on the nature of an error, diagnostic events may include technical metadata such as app version, build number, platform, stack traces, and sanitized error context. Sentry's privacy policy: [sentry.io/privacy](https://sentry.io/privacy/).
 
 If we integrate any new third-party service in the future, we will update this policy accordingly.
 
