@@ -1,7 +1,7 @@
 # Privacy Policy for MemoryAI
 
 **Effective Date: 2026-03-10**
-**Last Updated: 2026-04-07**
+**Last Updated: 2026-04-16**
 
 Thank you for using MemoryAI! This Privacy Policy explains how we handle your information when you use our mobile application. Your privacy is our top priority, and we are committed to protecting it. This policy is compliant with the General Data Protection Regulation (GDPR) and applicable Italian data protection laws.
 
@@ -19,8 +19,8 @@ MemoryAI is a private, offline-first application. All your data — including no
 
 The data controller for the MemoryAI app is:
 
-**MemoryAI Development Team**
-Email: alessandro.facchini@facchinits.it
+**Facchinits**
+Email: postmaster@facchinits.it
 
 Bug Reports & Feature Requests: [github.com/alessandrofacchini/memoryai-feedback](https://github.com/alessandrofacchini/memoryai-feedback/issues)
 
@@ -174,7 +174,7 @@ As a user in the European Union, you have the following rights under GDPR. Since
 - **Rights Related to Automated Decision-Making (Art. 22):** The AI features in the app assist you but do not make decisions that produce legal or similarly significant effects on you.
 - **Right to Lodge a Complaint:** You have the right to lodge a complaint with a supervisory authority. In Italy, this is the **Garante per la protezione dei dati personali** ([www.garanteprivacy.it](https://www.garanteprivacy.it)).
 
-To exercise any right that requires our assistance, please contact us at **alessandro.facchini@facchinits.it**.
+To exercise any right that requires our assistance, please contact us at **postmaster@facchinits.it**.
 
 ---
 
@@ -199,6 +199,6 @@ We encourage you to review this Privacy Policy periodically.
 
 If you have any questions, concerns, or requests related to this Privacy Policy or your data, please contact us:
 
-- **Email:** alessandro.facchini@facchinits.it
+- **Email:** postmaster@facchinits.it
 
 We aim to respond to all inquiries within 30 days, as required by GDPR.
