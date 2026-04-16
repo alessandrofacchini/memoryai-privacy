@@ -1,7 +1,7 @@
 # Informativa sulla Privacy di MemoryAI
 
 **Data di entrata in vigore: 10/03/2026**
-**Ultimo aggiornamento: 07/04/2026**
+**Ultimo aggiornamento: 16/04/2026**
 
 Grazie per aver scelto MemoryAI! La presente Informativa sulla Privacy spiega come gestiamo le tue informazioni quando utilizzi la nostra applicazione mobile. La tua privacy è la nostra massima priorità e ci impegniamo a proteggerla. Questa informativa è conforme al Regolamento Generale sulla Protezione dei Dati (GDPR) e alla normativa italiana in materia di protezione dei dati personali.
 
@@ -19,8 +19,8 @@ MemoryAI è un'applicazione privata che funziona principalmente offline. Tutti i
 
 Il titolare del trattamento dei dati per l'app MemoryAI è:
 
-**Team di sviluppo MemoryAI**
-Email: alessandro.facchini@facchinits.it
+**Facchinits**
+Email: postmaster@facchinits.it
 
 Segnalazioni e Richieste: [github.com/alessandrofacchini/memoryai-feedback](https://github.com/alessandrofacchini/memoryai-feedback/issues)
 
@@ -174,7 +174,7 @@ In qualità di utente nell'Unione Europea, hai i seguenti diritti ai sensi del G
 - **Diritti relativi al processo decisionale automatizzato (Art. 22):** Le funzionalità IA dell'app ti assistono ma non prendono decisioni che producano effetti giuridici o che ti riguardino in modo analogo e significativo.
 - **Diritto di presentare un reclamo:** Hai il diritto di presentare un reclamo a un'autorità di controllo. In Italia, si tratta del **Garante per la protezione dei dati personali** ([www.garanteprivacy.it](https://www.garanteprivacy.it)).
 
-Per esercitare qualsiasi diritto che richieda la nostra assistenza, contattaci all'indirizzo **alessandro.facchini@facchinits.it**.
+Per esercitare qualsiasi diritto che richieda la nostra assistenza, contattaci all'indirizzo **postmaster@facchinits.it**.
 
 ---
 
@@ -199,6 +199,6 @@ Ti invitiamo a consultare periodicamente la presente Informativa sulla Privacy.
 
 Per qualsiasi domanda, dubbio o richiesta relativa alla presente Informativa sulla Privacy o ai tuoi dati, contattaci:
 
-- **Email:** alessandro.facchini@facchinits.it
+- **Email:** postmaster@facchinits.it
 
 Ci impegniamo a rispondere a tutte le richieste entro 30 giorni, come previsto dal GDPR.
