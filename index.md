@@ -1,7 +1,7 @@
 # Privacy Policy for MemoryAI
 
 **Effective Date: 2026-03-10**
-**Last Updated: 2026-04-16**
+**Last Updated: 2026-04-21**
 
 Thank you for using MemoryAI! This Privacy Policy explains how we handle your information when you use our mobile application. Your privacy is our top priority, and we are committed to protecting it. This policy is compliant with the General Data Protection Regulation (GDPR) and applicable Italian data protection laws.
 
@@ -154,7 +154,7 @@ MemoryAI is built using third-party libraries. The majority operate **on-device*
 - **Share/Export (share_plus):** When you use the Share feature to export conversations, the app uses your device's native share sheet (via the share_plus library). The data is handed off to the operating system and then to whichever app you select. MemoryAI does not control or monitor this data once it leaves the app.
 - **In-App Purchases:** We use the native in-app purchase APIs provided by Apple (App Store) and Google (Google Play) to handle premium feature unlocks. We do not have access to your payment or billing information — this is handled entirely by Apple or Google. Purchasing premium features **does not** change how your data is handled; all data remains local unless you choose to use the backup feature.
 - **TelemetryDeck (Anonymous Analytics):** We use TelemetryDeck to collect anonymous, aggregated usage statistics. TelemetryDeck is a privacy-first analytics service based in Germany (EU). It does **not** collect personal data, device identifiers, IP addresses, or any user-generated content. User identification uses a daily-rotating cryptographic hash that cannot be reversed or linked to any individual. All data is processed and stored in the European Union. TelemetryDeck's privacy policy: [telemetrydeck.com/privacy](https://telemetrydeck.com/privacy/).
-- **Sentry (Crash and Error Diagnostics):** We use Sentry to receive crash reports and error diagnostics so we can identify bugs, fix stability issues, and improve reliability. Sentry is **not** used for product analytics. We configure it to minimize data collection, keep `sendDefaultPii` disabled, and filter or redact diagnostic payloads before they are sent. We do **not** intentionally send prompts, conversations, document contents, backup contents, or authentication tokens to Sentry. Depending on the nature of an error, diagnostic events may include technical metadata such as app version, build number, platform, stack traces, and sanitized error context. Sentry's privacy policy: [sentry.io/privacy](https://sentry.io/privacy/).
+- **Sentry (Crash and Error Diagnostics):** We use Sentry to receive crash reports and error diagnostics so we can identify bugs, fix stability issues, and improve reliability. Sentry is **not** used for product analytics. We configure it to minimize data collection, keep `sendDefaultPii` disabled, and filter or redact diagnostic payloads before they are sent. We do **not** intentionally send prompts, conversations, document contents, backup contents, or authentication tokens to Sentry. Depending on the nature of an error, diagnostic events may include technical metadata such as app version, build number, platform, stack traces, the native device memory state at the time of the crash, and sanitized error context. Sentry's privacy policy: [sentry.io/privacy](https://sentry.io/privacy/).
 
 If we integrate any new third-party service in the future, we will update this policy accordingly.
 
