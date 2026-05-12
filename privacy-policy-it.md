@@ -1,7 +1,7 @@
 # Informativa sulla Privacy di MemoryAI
 
 **Data di entrata in vigore: 10/03/2026**
-**Ultimo aggiornamento: 21/04/2026**
+**Ultimo aggiornamento: 12/05/2026**
 
 Grazie per aver scelto MemoryAI! La presente Informativa sulla Privacy spiega come gestiamo le tue informazioni quando utilizzi la nostra applicazione mobile. La tua privacy è la nostra massima priorità e ci impegniamo a proteggerla. Questa informativa è conforme al Regolamento Generale sulla Protezione dei Dati (GDPR) e alla normativa italiana in materia di protezione dei dati personali.
 
@@ -11,7 +11,7 @@ Questa informativa è disponibile in [Inglese](index.md) e [Italiano](privacy-po
 
 ## In breve
 
-MemoryAI è un'applicazione privata che funziona principalmente offline. Tutti i tuoi dati — incluse note, registrazioni vocali, immagini e interazioni con l'IA — sono archiviati localmente sul tuo dispositivo per impostazione predefinita. **Non disponiamo di alcuna infrastruttura backend che riceva le tue informazioni.** L'attività di rete dell'app è limitata al download di file dei modelli IA da repository di terze parti (ad es. HuggingFace) e, se scegli di abilitarlo, al backup dei tuoi dati nel tuo spazio di archiviazione cloud personale (Google Drive su Android, iCloud su iOS).
+MemoryAI è un'applicazione privata che funziona principalmente offline. Tutti i tuoi dati — incluse note, registrazioni vocali, immagini e interazioni con l'IA — sono archiviati localmente sul tuo dispositivo per impostazione predefinita. **Non disponiamo di alcuna infrastruttura backend che riceva le tue informazioni.** L'attività di rete dell'app è limitata a: download di file dei modelli IA da repository di terze parti (ad es. HuggingFace); se scegli di abilitarlo, backup dei tuoi dati nel tuo spazio di archiviazione cloud personale (Google Drive su Android, iCloud su iOS); e, se acconsenti a ricevere le notifiche push, condivisione di un token push del dispositivo con il nostro fornitore di notifiche (OneSignal) per consentirci di inviare messaggi al tuo dispositivo.
 
 ---
 
@@ -32,7 +32,7 @@ Se ti trovi nell'Unione Europea, puoi anche contattare la tua autorità di contr
 
 Trattiamo i tuoi dati sulla base dei seguenti fondamenti giuridici ai sensi dell'Articolo 6 del GDPR:
 
-- **Il tuo consenso (Art. 6(1)(a)):** Quando utilizzi la nostra app e concedi le autorizzazioni del dispositivo (microfono, fotocamera, archiviazione), acconsenti al trattamento locale dei tuoi dati come descritto nella presente informativa. Se scegli di abilitare la funzione di backup su cloud, acconsenti esplicitamente al caricamento dei tuoi dati nel tuo account di archiviazione cloud personale.
+- **Il tuo consenso (Art. 6(1)(a)):** Quando utilizzi la nostra app e concedi le autorizzazioni del dispositivo (microfono, fotocamera, archiviazione), acconsenti al trattamento locale dei tuoi dati come descritto nella presente informativa. Se scegli di abilitare la funzione di backup su cloud, acconsenti esplicitamente al caricamento dei tuoi dati nel tuo account di archiviazione cloud personale. Se scegli di abilitare le notifiche push, acconsenti esplicitamente alla condivisione di un token push (e di metadati minimi correlati) con il nostro fornitore di notifiche, come descritto nelle Sezioni 5 e 9. Puoi revocare questo consenso in qualsiasi momento disabilitando le notifiche push.
 - **Necessità contrattuale (Art. 6(1)(b)):** Il trattamento è necessario per fornire le funzionalità principali dell'app, come la RAG, le interazioni con i modelli di IA locali e la trascrizione vocale.
 
 ---
@@ -47,6 +47,7 @@ MemoryAI **non** raccoglie, trasmette o archivia alcun dato personale o contenut
 - **Interazioni con i modelli IA:** Le conversazioni e le interazioni con i modelli linguistici di grandi dimensioni (LLM) locali, che funzionano interamente sul dispositivo.
 - **File adattatori LoRA:** File adattatori LoRA personalizzati (ad es. formato .gguf) che importi nell'archiviazione locale dell'app per personalizzare il comportamento del modello IA.
 - **Dati di backup:** Se abiliti la funzione di backup su cloud, l'app crea una copia dei tuoi dati e la carica nel tuo account di archiviazione cloud personale (Google Drive su Android, iCloud su iOS). Vedi Sezione 5 per i dettagli.
+- **Dati per le notifiche push (opzionale):** Se abiliti le notifiche push, un token push del dispositivo viene generato da Apple (APNs) o Google (FCM) e condiviso con il nostro fornitore di notifiche, OneSignal, per consentire la consegna dei messaggi al tuo dispositivo. Insieme al token, OneSignal può ricevere metadati tecnici limitati come la versione dell'app, la versione della piattaforma/sistema operativo, la preferenza linguistica, il paese (derivato dall'indirizzo IP al momento della registrazione) e il fuso orario, utilizzati per inviarti notifiche pertinenti e localizzate. Vedi Sezioni 5 e 9 per i dettagli.
 - **Preferenze dell'app:** Impostazioni e preferenze configurate all'interno dell'app (ad es. selezione della lingua, tema).
 
 Raccogliamo **dati di utilizzo anonimi minimi** tramite TelemetryDeck, un servizio di analisi rispettoso della privacy con sede nell'Unione Europea (Germania). Queste analisi ci aiutano a capire come viene utilizzata l'app e a migliorarla. I dati raccolti sono **completamente anonimi** — non contengono informazioni personali, identificativi del dispositivo, indirizzi IP né contenuti generati dall'utente. Esempi di segnali anonimi includono: "l'app è stata aperta", "un modello è stato caricato", "un messaggio è stato inviato" (mai il contenuto del messaggio). Per maggiori dettagli, vedi Sezione 9. Puoi saperne di più sulle pratiche di privacy di TelemetryDeck su [telemetrydeck.com/privacy](https://telemetrydeck.com/privacy/).
@@ -66,6 +67,7 @@ Per fornire le sue funzionalità principali, MemoryAI può richiedere le seguent
 | **Archiviazione / Foto** | Per accedere alle immagini dalla galleria, per importare file adattatori LoRA e per archiviare i dati dell'app localmente. |
 | **Rete / Internet** | Per scaricare file dei modelli IA da repository di terze parti (ad es. HuggingFace) e, se abilitato, per eseguire il backup e il ripristino dei dati tramite archiviazione cloud. Nessun dato viene inviato a server di MemoryAI. |
 | **Account Google (Android)** | Richiesto solo se abiliti la funzione di backup su Google Drive. Utilizzato per autenticarsi con il tuo account Google e accedere al tuo spazio Google Drive. |
+| **Notifiche** | Richiesta solo se scegli di abilitare le notifiche push. Utilizzata dal sistema operativo per visualizzare i messaggi che inviamo tramite il nostro fornitore di notifiche (OneSignal). Puoi revocare questa autorizzazione in qualsiasi momento senza compromettere alcuna altra funzionalità dell'app. |
 
 Puoi revocare qualsiasi di queste autorizzazioni in qualsiasi momento tramite le impostazioni di sistema del tuo dispositivo. La revoca di un'autorizzazione potrebbe disabilitare la funzionalità corrispondente, ma non influenzerà il resto dell'app.
 
@@ -96,6 +98,30 @@ Puoi eliminare i tuoi backup su cloud in qualsiasi momento direttamente tramite 
 
 Quando utilizzi la **funzione di Condivisione/Esportazione**, i dati delle tue conversazioni vengono passati alla funzionalità di condivisione nativa del tuo dispositivo (tramite il foglio di condivisione del sistema operativo). Da lì, i dati possono essere inviati ad altre app o servizi da te scelti. MemoryAI non ha alcun controllo su come tali app di terze parti gestiscono i tuoi dati.
 
+### Notifiche push
+
+MemoryAI offre notifiche push **opzionali** per informarti su nuove funzionalità, aggiornamenti dei modelli e miglioramenti dell'app. Questa funzione **non è abilitata per impostazione predefinita** — devi accettare esplicitamente quando richiesto dal sistema operativo o tramite le Impostazioni dell'app.
+
+Utilizziamo **OneSignal** (OneSignal, Inc., con sede negli Stati Uniti) come fornitore per la consegna delle notifiche. Quando abiliti le notifiche push:
+
+- Un token push del dispositivo emesso da Apple Push Notification service (APNs) su iOS o da Firebase Cloud Messaging (FCM) su Android viene condiviso con OneSignal affinché i messaggi possano essere instradati al tuo dispositivo.
+- Insieme al token, possiamo condividere metadati tecnici limitati — come la versione dell'app, la versione della piattaforma/sistema operativo, la preferenza linguistica, il paese (derivato dall'indirizzo IP al momento della registrazione) e il fuso orario — per poterti inviare notifiche pertinenti e localizzate.
+- **Non** condividiamo con OneSignal alcuna nota, conversazione, registrazione vocale, immagine, documento, contenuto di backup o qualsiasi altro contenuto da te creato all'interno dell'app. Non ti assegniamo un identificativo personale; OneSignal vede solo un identificatore opaco a livello di dispositivo.
+
+In questo trattamento, MemoryAI agisce come **titolare del trattamento** e OneSignal agisce come **responsabile del trattamento** per nostro conto, sulla base di un Accordo sul Trattamento dei Dati (DPA) conforme al GDPR.
+
+Puoi disabilitare le notifiche push in qualsiasi momento:
+
+- tramite le impostazioni di sistema del tuo dispositivo (su iOS: Impostazioni → Notifiche; su Android: Impostazioni → App → Notifiche), oppure
+- all'interno della schermata Impostazioni dell'app.
+
+La disabilitazione delle notifiche interrompe tutti i messaggi push e comporta la rimozione del tuo dispositivo dalla lista di distribuzione di OneSignal per la nostra app. La disabilitazione delle notifiche push costituisce inoltre la revoca del consenso ai sensi dell'Articolo 7(3) del GDPR per questo specifico trattamento.
+
+Per maggiori informazioni, consulta:
+
+- Informativa sulla privacy di OneSignal: [onesignal.com/privacy_policy](https://onesignal.com/privacy_policy)
+- Documentazione GDPR di OneSignal: [documentation.onesignal.com/docs/gdpr](https://documentation.onesignal.com/docs/en/gdpr-compliance)
+
 ---
 
 ## 6. Archiviazione e sicurezza dei dati
@@ -122,6 +148,7 @@ I tuoi dati sono conservati sul tuo dispositivo per tutto il tempo che desideri.
 - **Cancellazione nell'app:** Puoi eliminare singole note, registrazioni, immagini e cronologie delle conversazioni in qualsiasi momento dall'interno dell'app.
 - **Cancellazione completa dei dati:** La disinstallazione dell'app rimuoverà tutti i dati dell'app dal tuo dispositivo.
 - **Cancellazione dei backup su cloud:** Se hai creato backup su cloud, la disinstallazione dell'app **non** elimina automaticamente tali backup. Devi eliminare i tuoi backup manualmente tramite Google Drive o iCloud. MemoryAI non conserva né ha accesso ai tuoi backup su cloud.
+- **Token per le notifiche push:** Se hai abilitato le notifiche push, il token push del dispositivo e i metadati associati vengono conservati da OneSignal per nostro conto solo finché il tuo dispositivo rimane iscritto al servizio. Quando disabiliti le notifiche, disinstalli l'app o il tuo dispositivo diventa non raggiungibile, il record del dispositivo viene rimosso dal servizio e successivamente eliminato conformemente alle pratiche di conservazione di OneSignal.
 
 Non conserviamo alcuna copia dei tuoi dati sui nostri server, poiché non ne operiamo alcuno.
 
@@ -137,6 +164,8 @@ Tuttavia, se scegli di utilizzare la funzione di backup su cloud, i tuoi dati sa
 - Apple: [apple.com/legal/privacy](https://www.apple.com/legal/privacy/)
 
 Inoltre, il download di file dei modelli IA da repository di terze parti (ad es. HuggingFace) comporta richieste di rete a server che possono trovarsi a livello internazionale. Nessun dato personale viene trasmesso durante questo processo.
+
+Se acconsenti a ricevere notifiche push, il token push e i metadati tecnici associati descritti nella Sezione 5 vengono trasmessi a **OneSignal**, che ha sede negli Stati Uniti. Questo trasferimento al di fuori dello Spazio Economico Europeo avviene sulla base delle Clausole Contrattuali Standard adottate dalla Commissione Europea e delle ulteriori garanzie descritte nella documentazione GDPR di OneSignal: [documentation.onesignal.com/docs/gdpr](https://documentation.onesignal.com/docs/en/gdpr-compliance). Anche la consegna della notifica stessa avviene tramite i servizi APNs di Apple (iOS) o FCM di Google (Android), che possono instradare i messaggi attraverso server situati al di fuori del SEE in conformità ai rispettivi quadri di compliance.
 
 ---
 
@@ -155,6 +184,7 @@ MemoryAI è costruita utilizzando librerie di terze parti. La maggior parte oper
 - **Acquisti in-app:** Utilizziamo le API native per gli acquisti in-app fornite da Apple (App Store) e Google (Google Play) per gestire lo sblocco delle funzionalità premium. Non abbiamo accesso alle tue informazioni di pagamento o fatturazione — questo è gestito interamente da Apple o Google. L'acquisto di funzionalità premium **non** modifica il modo in cui i tuoi dati vengono gestiti; tutti i dati rimangono locali a meno che tu non scelga di utilizzare la funzione di backup.
 - **TelemetryDeck (Analisi anonime):** Utilizziamo TelemetryDeck per raccogliere statistiche di utilizzo anonime e aggregate. TelemetryDeck è un servizio di analisi rispettoso della privacy con sede in Germania (UE). **Non** raccoglie dati personali, identificativi del dispositivo, indirizzi IP né alcun contenuto generato dall'utente. L'identificazione degli utenti utilizza un hash crittografico a rotazione giornaliera che non può essere invertito o collegato a nessun individuo. Tutti i dati vengono elaborati e archiviati nell'Unione Europea. Informativa sulla privacy di TelemetryDeck: [telemetrydeck.com/privacy](https://telemetrydeck.com/privacy/).
 - **Sentry (Diagnostica di crash ed errori):** Utilizziamo Sentry per ricevere segnalazioni di crash e diagnostica sugli errori, così da individuare bug, correggere problemi di stabilità e migliorare l'affidabilità. Sentry **non** viene utilizzato per analisi di prodotto. Lo configuriamo per ridurre al minimo la raccolta dei dati, mantenere disattivato `sendDefaultPii` e filtrare o oscurare i payload diagnostici prima dell'invio. **Non** inviamo intenzionalmente prompt, conversazioni, contenuti dei documenti, contenuti dei backup o token di autenticazione a Sentry. A seconda della natura dell'errore, gli eventi diagnostici possono includere metadati tecnici come versione dell'app, numero di build, piattaforma, stack trace, lo stato della memoria nativa del dispositivo al momento dell'arresto anomalo (crash) e contesto dell'errore sanificato. Informativa sulla privacy di Sentry: [sentry.io/privacy](https://sentry.io/privacy/).
+- **OneSignal (Notifiche push):** Se acconsenti a ricevere notifiche push, utilizziamo OneSignal (OneSignal, Inc., Stati Uniti) per consegnarle. In questo trattamento, MemoryAI è il titolare del trattamento e OneSignal agisce come responsabile del trattamento per nostro conto sulla base di un Accordo sul Trattamento dei Dati (DPA) conforme al GDPR. I dati condivisi con OneSignal sono limitati a un token push del dispositivo (emesso da APNs su iOS o FCM su Android) insieme a metadati tecnici utilizzati per consegnare e localizzare le notifiche (versione dell'app, versione della piattaforma/sistema operativo, preferenza linguistica, paese derivato dall'indirizzo IP al momento della registrazione e fuso orario). **Non** condividiamo con OneSignal alcuna nota, conversazione, registrazione vocale, immagine, documento, contenuto di backup o altro contenuto generato dall'utente, e non assegniamo identificativi utente personalmente identificabili. Puoi disabilitare le notifiche push in qualsiasi momento dalle impostazioni del dispositivo o dalla schermata Impostazioni dell'app, operazione che comporta la rimozione del tuo dispositivo dalla lista di distribuzione di OneSignal. Informativa sulla privacy di OneSignal: [onesignal.com/privacy_policy](https://onesignal.com/privacy_policy). Documentazione GDPR di OneSignal: [documentation.onesignal.com/docs/gdpr](https://documentation.onesignal.com/docs/en/gdpr-compliance).
 
 Se in futuro integreremo nuovi servizi di terze parti, aggiorneremo di conseguenza la presente informativa.
 
@@ -171,6 +201,7 @@ In qualità di utente nell'Unione Europea, hai i seguenti diritti ai sensi del G
 - **Diritto alla limitazione del trattamento (Art. 18):** Puoi revocare le autorizzazioni del dispositivo per limitare specifiche attività di trattamento.
 - **Diritto alla portabilità dei dati (Art. 20):** Puoi esportare le tue conversazioni come testo o Markdown utilizzando la funzione di Condivisione all'interno dell'app.
 - **Diritto di opposizione (Art. 21):** Poiché il trattamento è locale e sotto il tuo controllo, puoi interrompere il trattamento in qualsiasi momento revocando le autorizzazioni o disinstallando l'app.
+- **Diritto di revocare il consenso (Art. 7(3)):** Laddove il trattamento sia basato sul tuo consenso — come nel caso delle notifiche push — puoi revocare tale consenso in qualsiasi momento disabilitando le notifiche nelle impostazioni del dispositivo o all'interno dell'app, senza pregiudicare la liceità del trattamento basato sul consenso effettuato prima della revoca.
 - **Diritti relativi al processo decisionale automatizzato (Art. 22):** Le funzionalità IA dell'app ti assistono ma non prendono decisioni che producano effetti giuridici o che ti riguardino in modo analogo e significativo.
 - **Diritto di presentare un reclamo:** Hai il diritto di presentare un reclamo a un'autorità di controllo. In Italia, si tratta del **Garante per la protezione dei dati personali** ([www.garanteprivacy.it](https://www.garanteprivacy.it)).
 
