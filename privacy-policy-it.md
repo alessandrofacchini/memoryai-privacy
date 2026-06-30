@@ -1,7 +1,7 @@
 # Informativa sulla Privacy di MemoryAI
 
 **Data di entrata in vigore: 10/03/2026**
-**Ultimo aggiornamento: 12/05/2026**
+**Ultimo aggiornamento: 30/06/2026**
 
 Grazie per aver scelto MemoryAI! La presente Informativa sulla Privacy spiega come gestiamo le tue informazioni quando utilizzi la nostra applicazione mobile. La tua privacy è la nostra massima priorità e ci impegniamo a proteggerla. Questa informativa è conforme al Regolamento Generale sulla Protezione dei Dati (GDPR) e alla normativa italiana in materia di protezione dei dati personali.
 
@@ -211,7 +211,9 @@ Per esercitare qualsiasi diritto che richieda la nostra assistenza, contattaci a
 
 ## 11. Privacy dei minori
 
-MemoryAI non è destinata all'uso da parte di minori di età inferiore ai 16 anni nell'Unione Europea o inferiore ai 13 anni in altre giurisdizioni. Non raccogliamo consapevolmente informazioni personali da minori. Poiché tutti i dati vengono trattati localmente, non abbiamo modo di identificare l'età dei nostri utenti. Se sei un genitore o un tutore e ritieni che tuo figlio stia utilizzando l'app in modo inappropriato, puoi eliminare i dati dell'app disinstallando l'app dal dispositivo e rimuovendo eventuali backup su cloud da Google Drive o iCloud.
+Non raccogliamo, trasmettiamo o archiviamo consapevolmente alcuna informazione personale di minori di età inferiore ai 16 anni nell'Unione Europea o inferiore ai 13 anni in altre giurisdizioni, poiché **non raccogliamo dati personali da nessun utente**. Tutti i dati vengono elaborati interamente a livello locale sul tuo dispositivo.
+
+Offriamo una **Modalità Bambini** protetta da PIN, progettata per aiutare i genitori a fornire un'esperienza più sicura e limitata per i bambini. Quando la Modalità Bambini è attiva, tutta l'elaborazione dell'IA e il filtraggio dei contenuti avvengono comunque in modo completamente locale sul dispositivo. Non monitoriamo, registriamo o trasmettiamo le interazioni di tuo figlio. In qualità di genitore o tutore, mantieni il pieno controllo e puoi eliminare i dati dell'app in qualsiasi momento disinstallando l'app dal dispositivo e rimuovendo eventuali backup su cloud da Google Drive o iCloud.
 
 ---
 
