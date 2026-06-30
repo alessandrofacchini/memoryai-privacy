@@ -1,7 +1,7 @@
 # Privacy Policy for MemoryAI
 
 **Effective Date: 2026-03-10**
-**Last Updated: 2026-05-12**
+**Last Updated: 2026-06-30**
 
 Thank you for using MemoryAI! This Privacy Policy explains how we handle your information when you use our mobile application. Your privacy is our top priority, and we are committed to protecting it. This policy is compliant with the General Data Protection Regulation (GDPR) and applicable Italian data protection laws.
 
@@ -211,7 +211,9 @@ To exercise any right that requires our assistance, please contact us at **postm
 
 ## 11. Children's Privacy
 
-MemoryAI is not intended for use by children under the age of 16 in the European Union, or under the age of 13 in other jurisdictions. We do not knowingly collect any personal information from children. Since all data is processed locally, we have no means to identify the age of our users. If you are a parent or guardian and believe your child is using the app inappropriately, you can delete the app data by uninstalling the app from the device and removing any cloud backups from Google Drive or iCloud.
+We do not knowingly collect, transmit, or store any personal information from children under the age of 16 in the European Union, or under the age of 13 in other jurisdictions, because **we do not collect personal data from any user**. All data is processed entirely locally on your device.
+
+We offer a PIN-protected **Kid Mode** designed to help parents provide a safer, restricted experience for children. When Kid Mode is active, all AI processing and content filtering still happen completely locally on the device. We do not monitor, record, or transmit your child's interactions. As a parent or guardian, you retain full control and can delete the app data at any time by uninstalling the app from the device and removing any cloud backups from Google Drive or iCloud.
 
 ---
 
