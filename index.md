@@ -9,7 +9,7 @@ This policy is available in [English](index.md) and [Italian](privacy-policy-it.
 
 ---
 
-## The TL;DR
+## In short
 
 MemoryAI is a private, offline-first application. All your data — including notes, voice recordings, images, and AI interactions — is stored locally on your device by default. **We have no backend infrastructure that receives your information.** The app's network activity is limited to: downloading AI model files from third-party repositories (e.g., HuggingFace); if you choose to enable it, backing up your data to your personal cloud storage (Google Drive on Android, iCloud on iOS); if you turn on Web search and switch on the globe in a chat, sending the words of that message, or the address of a page you paste, to a search service (You.com, or Wikipedia); if you connect the app to a computer of your own and choose one of its models, sending that chat to that computer; if you accept the in-app "Notifications" prompt, registering with our notification provider (OneSignal), with a device push token if you also allow notifications, so we can deliver messages to your device; sending usage statistics to TelemetryDeck and crash reports to Sentry, neither of which contains the content you create; the technical usage data that Google ML Kit, the library that recognizes text in images, sends to Google (never your images or the recognized text); on Android, asking Google Play whether an app update is available; and, on Android versions before 1.0.55 and only with your consent, sending usage data to Google Analytics for Firebase.
 
